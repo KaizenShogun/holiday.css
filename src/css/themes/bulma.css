@@ -349,9 +349,7 @@ textarea:focus-visible,
 select:focus-visible,
 summary:focus-visible {
   outline: 0.13rem solid var(--focus-color);
-  outline-offset: 0.06rem;
-  border-color: var(--focus-color);
-  box-shadow: none;
+  border-color: transparent;
 }
 
 @media (hover: hover) {
